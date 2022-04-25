@@ -1,0 +1,7 @@
+import pyqrcode
+import png
+from pyqrcode import QRCode
+link ="your link please!"
+url =pyqrcode.create(link)
+url.png("AURESVET.png",scale=8)
+print("DONE!")
